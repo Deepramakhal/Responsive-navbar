@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="w-screen h-screen p-0 m-0">
+    <header class="w-full h-20 md:flex md:justify-center ">
+        <nav id="nav-1" class="flex w-full h-full p-2 bg-blue-300 border-solid border-4 border-black rounded-xl md:rounded-3xl md:w-[90%] ">
+            <h1 id="company-name" class="w-35 ml-4 bg-white border-solid border-x-8 font-serif   border-blue-800 rounded-full flex justidy-center items-center p-3 mr-2 cursor-pointer">Demo-Site</h1>
+            <div id="menu" class="hidden w-[70%] md:flex md:justify-around md:items-center md:ml-auto md:text-xl">
+                <div class="border-solid border-x-2 border-indigo-900 rounded-md p-3 hover:border-y-2 hover:border-x-0 cursor-pointer">Home</div>
+                <div class="border-solid border-x-2 border-indigo-900 rounded-md p-3 hover:border-y-2 hover:border-x-0 cursor-pointer">Products</div>
+                <div class="border-solid border-x-2 border-indigo-900 rounded-md p-3 hover:border-y-2 hover:border-x-0 cursor-pointer">Orders</div>
+                <div class="border-solid border-x-2 border-indigo-900 rounded-md p-3 hover:border-y-2 hover:border-x-0 cursor-pointer">Contact us</div>
+            </div>
+            <div id="expand-button" class="ml-auto flex justify-center items-center cursor-pointer md:hidden">
+                <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu w-10 h-10 mr-3"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </div>
+        </nav>
+        <nav id="nav-2" class="w-full h-30 grid row-4 hidden ">
+            <ol class="">
+                <li class="flex justify-center text-xl p-4 border-solid border-b-2 border-gray-400 hover:bg-slate-300 hover:font-semibold ">Home</li>
+                <li class="flex justify-center text-xl p-4 border-solid border-b-2 border-gray-400 hover:bg-slate-300 hover:font-semibold ">Products</li>
+                <li class="flex justify-center text-xl p-4 border-solid border-b-2 border-gray-400 hover:bg-slate-300 hover:font-semibold ">Orders</li>
+                <li class="flex justify-center text-xl p-4 border-solid border-b-2 border-gray-400 hover:bg-slate-300 hover:font-semibold ">Contact us</li>
+            </ol>
+        </nav>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
