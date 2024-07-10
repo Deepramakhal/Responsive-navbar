@@ -1,2 +1,4 @@
 # Responsive-navbar
-Responsive navigation bar
+Responsive navigation bar using HTML, Tailwind, JavaScript.
+Mobile first approach. 
+Mobile touch feature available. 
